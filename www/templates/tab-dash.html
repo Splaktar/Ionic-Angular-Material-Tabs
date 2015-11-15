@@ -1,37 +1,24 @@
 <ion-view hide-nav-bar="true" title="Dashboard">
-    <md-toolbar>
-        <div class="md-toolbar-tools">
-            <h2>
-                <span>Dashboard</span>
-            </h2>
-        </div>
-    </md-toolbar>
-    <md-content has-header="false" class="md-padding">
-        <md-card>
-            <div class="item item-divider">Recent Updates</div>
-            <md-card-content>
-                <div>
-                    There is a fire in <b>sector 3</b>
-                </div>
-            </md-card-content>
-        </md-card>
-        <br>
-        <md-card>
-            <div class="item item-divider">Health</div>
-            <md-card-content>
-                <div>
-                    There is a fire in <b>sector 3</b>
-                </div>
-            </md-card-content>
-        </md-card>
-        <br>
-        <md-card>
-            <div class="item item-divider">Upcoming</div>
-            <md-card-content>
-                <div>
-                    You have <b>29</b> meetings on your calendar tomorrow.
-                </div>
-            </md-card-content>
-        </md-card>
+    <md-content has-header="false" class="md-padding" layout="column" layout-margin>
+        <md-whiteframe class="md-whiteframe-1dp" layout="column">
+            <md-toolbar layout-padding class="md-accent">Recent Updates</md-toolbar>
+            <div style="padding: 8px">
+                There is a fire in <b>sector 3</b>.
+            </div>
+        </md-whiteframe>
+
+        <md-whiteframe class="md-whiteframe-1dp" layout="column">
+            <md-toolbar layout-padding class="md-warn">Health</md-toolbar>
+            <div style="padding: 8px">
+                The system is <b>Unhealthy</b>.
+            </div>
+        </md-whiteframe>
+
+        <md-whiteframe class="md-whiteframe-1dp" layout="column">
+            <md-toolbar layout-padding>Upcoming</md-toolbar>
+            <div style="padding: 8px">
+                You have <b>29</b> meetings on your calendar tomorrow.
+            </div>
+        </md-whiteframe>
     </md-content>
 </ion-view>
