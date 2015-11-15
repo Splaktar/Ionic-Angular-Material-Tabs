@@ -1,4 +1,0 @@
-/* Match Angular-Material's md-tabs height of 48px so that md-ink-bar gets covered up properly */
-.bar {
-    height: 48px;
-}
