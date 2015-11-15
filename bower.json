@@ -1,7 +1,8 @@
 {
-  "name": "HelloIonic",
+  "name": "ionic-angular-material",
+  "version": "0.0.1",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.1"
+    "ionic": "driftyco/ionic-bower#1.1.1"
   }
 }
